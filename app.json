@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Namma Gamer Studio",
+    "slug": "namma-gamer-studio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#080711"
+    },
+    "android": {
+      "package": "com.nammagamer.studio",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#080711",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "permissions": []
+    },
+    "plugins": [
+      "expo-document-picker",
+      "expo-video"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_YOUR_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
